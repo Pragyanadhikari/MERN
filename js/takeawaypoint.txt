@@ -7,3 +7,9 @@ Data type
 1. Number:      1,2,10
 2. Boolean:     true, false
 3. String:      Anything inside " "  is string. "a","1","true"
+Only number String can be converted to number
+Number:
+        String "10" --> 10
+Boolean:
+        true  -->1
+        false --> 0
