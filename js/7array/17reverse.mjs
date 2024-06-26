@@ -5,10 +5,8 @@ const reverseWord = (value) => {
   return value.split("").reverse().join("");
 };
 
-let variable = input.split(" ");
-let outputArr1 = variable.map((value, i) => {
-  let outputAnswer = reverseWord(value);
-  return outputAnswer;
+let outputArr1 = input.split(" ").map((value, i) => {
+  return reverseWord(value);
 });
-let answer = outputArr1.join(" ");
-console.log(answer);
+
+console.log(outputArr1.join(" "));
