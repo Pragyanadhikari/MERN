@@ -21,11 +21,6 @@ let files = [
   },
 ];
 
-//   [
-//       "localhost:8000/1673334935126js.jpg",
-//       "localhost:8000/1673334935126houseOfJobBannerImage.png"
-//   ]
-
 let output = files.map((value, i) => {
   return `localhost:8000/${value.filename}`;
 });
