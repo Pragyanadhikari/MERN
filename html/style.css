@@ -1,20 +1,29 @@
-/* .form{
-    border-color: beige;
-    background-color: turquoise;
-    font-size: 12;
-    font-family: 'Courier New', Courier, monospace;
-   
-} */
-h1 {
-    font-size: 33;
-    text-align: center;
-    font-style:normal;
-    text-decoration: dotted;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{
+    background-color: antiquewhite;
+    justify-content: center;
 }
-
-.para {
-    text-align: left;
-    background-color: blueviolet;
-    text-decoration: solid;
+.display{
+    width: 300px;
+    height: 370px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.numField{
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.symbolButton{
+    background-color: orange;
 }
